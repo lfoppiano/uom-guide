@@ -12,6 +12,7 @@
 
 * [Formatting Units](formatting-units.md)
 * [Formatting Quantities](formatting.md)
+* [Parsing](parsing.md)
 
 ## Advanced
 

@@ -10,7 +10,7 @@ In order to be able to use Indriya, you first have to set up your Maven project 
     <dependency>
       <groupId>tech.units</groupId>
       <artifactId>indriya</artifactId>
-      <version>2.0-EDR</version>
+      <version>2.0-PRD</version>
     </dependency>
 ```
 
