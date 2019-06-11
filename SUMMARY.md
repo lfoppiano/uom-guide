@@ -2,7 +2,7 @@
 
 ## Overview
 
-* [Introduction](motivation.md)
+* [Motivation](motivation.md)
 * [Getting Started](getting-started.md)
 
 ## Formatting and Parsing
