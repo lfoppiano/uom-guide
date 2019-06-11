@@ -2,11 +2,21 @@
 
 ## Getting started with Indyria
 
-In this chapter, we'll explain how to set up a simple Maven project and create your first quantity. Once you've done that, you're all set to explore the rest of the functionality of Indriya.
+[Indriya](https://github.com/unitsofmeasurement/indriya) is the Units of Measurement Reference Implementation. It provides both an implementation of the interfaces defined in the API, and some helpful elements which are not part of the API.
 
-### Setting Up Your Maven Project
+While some JSRs offer abstract base classes in their public API, many of these classes here are specialized to their target environment so having them as part of the implementation makes it easier to scale and optimize for other environments in a different implementation. 
 
-In order to be able to use Indriya, you first have to set up your Maven project correctly. Assuming you have a working POM file, all you should need to do is to add the following dependency to your project:
+In this chapter, we'll explain how to set up a simple Maven/Gradle project and create your first quantity. Once you've done that, you're all set to explore the rest of the functionality of Indriya.
+
+TODO: to be reviewed!
+
+### Setting up you project
+
+In order to be able to use Indriya, you first have to set up your project dependencies correctly.
+
+#### Maven 
+
+Assuming you have a working POM file, all you should need to do is to add the following dependency to your project:
 
 ```xml
     <dependency>
@@ -16,9 +26,23 @@ In order to be able to use Indriya, you first have to set up your Maven project 
     </dependency>
 ```
 
+#### Gradle
+
+Just add the dependency in your `build.gradle` file:  
+
+```groovy
+compile 'tech.units:indriya:2.0-EDR'
+```
+
+TODO: Additional dependencies??
+
+## Examples 
+
+Some example are available [here](https://github.com/thodorisbais/jsr385-examples).
+
 ## Your First Quantity
 
-Next, we'll create a Java class that will create your first quantity, the speed of light (*c*). Let's start by creating a new class in a package of your choice. In that class, import the following types in order to create a new speed quantity:
+A first quantity can be implemented quickly. For example let's take the speed of light (*c*). Let's start by creating a new class in a package of your choice. In that class, import the following types in order to create a new speed quantity:
 
 ```java
 import javax.measure.Quantity;

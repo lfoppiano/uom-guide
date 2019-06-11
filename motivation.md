@@ -1,10 +1,4 @@
-# Introduction 
-The Unit of Measurement API provides a set of Java language programming interfaces for handling units and quantities.
-
-The specification contains Interfaces and abstract classes with methods for unit operations:
-* Checking of unit compatibility
-* Expression of a quantity in various units
-* Arithmetic operations on units
+# Motivation
 
 Developers frequently encounter the need to model units of measure, because objects in the real world are subject to these measures. Working with units require to understand the mathematics behind, how to convert between systems, and how to format and parse string representations of units. Most of this work can be consolidated into a library to avoid common problems and mistakes of conversion and approximation. 
 
