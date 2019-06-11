@@ -2,11 +2,8 @@
 
 ## Overview
 
-* [Introduction](README.md)
-
-## Getting Started
-
-* [Getting Started with Indriya](getting-started-with-indriya.md)
+* [Introduction](introduction.md)
+* [Getting Started](getting-started.md)
 
 ## Formatting and Parsing
 
